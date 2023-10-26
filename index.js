@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
+  console.log('in');
   console.log(req);
   res.status(200).send('OK')
 });
